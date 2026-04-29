@@ -3,9 +3,9 @@
 RF2-PPI-PPU was tested on the Zhenwu 810E PPU platform with the following software stack:
 
 ```text
-inference-xpu-pytorch:26.01
-torch2.9-cu129
-python 3.12
+inference-xpu-pytorch：26.01
+torch：2.9-cu129
+python：3.12
 ```
 
 For compatibility with the original RF2-PPI dependency stack, we recommend creating a separate conda environment with Python 3.9.
@@ -63,20 +63,20 @@ python /data/RF2-PPI-PPU/src/predict_list_PPI.py \
 The input file should contain two columns: the paired MSA file and the length of the first protein.
 
 ```text
-protein_paired_msas/P50579_Q9Y490.i90.a3m    512
-protein_paired_msas/B2RTY4_Q9Y4C1.i90.a3m    430
-protein_paired_msas/Q15746_Q8WYB5.i90.a3m    621
+protein_paired_msas/P50579_Q9Y490.a3m    512
+protein_paired_msas/B2RTY4_Q9Y4C1.a3m    430
+protein_paired_msas/Q15746_Q8WYB5.a3m    621
 ```
 
 For an input file named `test_pairs_input`, the output files will be:
 
 ```text
 test_pairs_input.npz
-test_pairs_input.log
+test_pairs_input.result
 test_pairs_input.failed
 ```
 
-The `.log` file contains the RF2-PPI prediction results:
+The `.result` file contains the RF2-PPI prediction results:
 
 ```text
 Input_MSA    Interaction_probability    Compute_time
