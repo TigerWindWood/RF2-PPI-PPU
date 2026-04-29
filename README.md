@@ -1,3 +1,5 @@
+![RF2-PPI-PPU](zhenwu810.png)
+
 ## Component Versions
 
 RF2-PPI-PPU was tested on the Zhenwu 810E PPU platform with the following software stack:
