@@ -29,9 +29,8 @@ git clone https://github.com/TigerWindWood/RF2-PPI-PPU.git
 cd RF2-PPI-PPU
 
 # 5. Download the RF2-PPI model weights
-cd src/models
+cd RF2-PPI-PPU/src/models
 wget --no-check-certificate https://conglab.swmed.edu/humanPPI/downloads/RF2-PPI.pt
-cd ../..
 ```
 
 After installation, the model checkpoint should be located at:
