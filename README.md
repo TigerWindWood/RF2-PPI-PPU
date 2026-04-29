@@ -14,7 +14,7 @@ For compatibility with the original RF2-PPI dependency stack, we recommend creat
 
 ```bash
 # 1. Create and activate the environment
-conda create -n rf2ppi-ppu python=3.9
+conda create -n rf2ppi-ppu python=3.12
 conda activate rf2ppi-ppu
 
 # 2. Install HH-suite
