@@ -1,4 +1,6 @@
-![RF2-PPI-PPU](zhenwu810.png)
+<p align="center">
+  <img src="zhenwu810.png" width="800">
+</p>
 
 ## Component Versions
 
