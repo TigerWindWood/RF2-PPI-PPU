@@ -20,7 +20,7 @@ conda activate rf2ppi-ppu
 # 2. Install HH-suite
 conda install -c conda-forge -c bioconda hhsuite
 
-# 3. Install Python dependencies
+# 3. Install dependencies
 pip install biopython==1.83 -i https://pypi.org/simple
 pip install numpy==1.26.4 pandas==2.2.2 scipy==1.11.4 scikit-learn==1.3.2 tqdm==4.64.1 h5py==3.10.0 networkx==2.8.8 einops==0.6.1
 
