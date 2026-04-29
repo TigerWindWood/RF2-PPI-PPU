@@ -8,7 +8,7 @@ torch：2.9-cu129
 python：3.12
 ```
 
-For compatibility with the original RF2-PPI dependency stack, we recommend creating a separate conda environment with Python 3.9.
+For compatibility with the original RF2-PPI dependency stack, we recommend creating a separate conda environment with Python 3.12.
 
 ## Installation
 
