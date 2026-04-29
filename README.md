@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="zhenwu810.png" width="600">
+  <img src="zhenwu810.png" width="700">
 </p>
 
 ## Component Versions
